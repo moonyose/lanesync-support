@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LaneSync Privacy Policy</title>
+<meta name="description" content="Privacy policy for LaneSync - Sprint Timer for iPhone and Apple Watch.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f5f3;
+    --ink: #1a1a1a;
+    --ink2: #5a5a5a;
+    --stroke: #e3e0dc;
+    --accent: #b3432a;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a0a0b;
+      --surface: #17171a;
+      --ink: #f2f2f2;
+      --ink2: #a8a8ad;
+      --stroke: #2a2a2e;
+      --accent: #e5714f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-top: 12px; border-top: 1px solid var(--stroke); }
+  p, li { color: var(--ink); }
+  .meta { color: var(--ink2); margin: 0 0 24px; }
+  .summary { background: var(--surface); border: 1px solid var(--stroke); border-radius: 12px; padding: 16px 18px; }
+  .summary p { margin: 0 0 8px; }
+  .summary p:last-child { margin-bottom: 0; }
+  ul { padding-left: 1.2em; }
+  li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--stroke); }
+  th { color: var(--ink2); font-weight: 600; }
+  .table-wrap { overflow-x: auto; }
+  a { color: var(--accent); }
+  code { font-size: 0.9em; }
+  footer { margin-top: 48px; color: var(--ink2); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>LaneSync Privacy Policy</h1>
+  <p class="meta">LaneSync - Sprint Timer for iPhone and Apple Watch<br>Effective date: October 6, 2026</p>
+
+  <div class="summary">
+    <p><strong>The short version.</strong> LaneSync has no accounts, no servers, no analytics, no advertising and no third-party tracking. Everything you record (times, runner names, notes and video clips) stays on your own devices.</p>
+    <p>The developer does not collect, receive, sell or share any of your data.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>LaneSync is made by Austin Munoz, an independent developer (“we”, “us”). This policy explains what the LaneSync iPhone app and its Apple Watch app do with information, and covers both.</p>
+
+  <h2>What LaneSync stores, and where</h2>
+  <p>All of the following is created by you, kept in the app's private storage on your iPhone or Apple Watch, and never sent to us:</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Information</th><th>Where it is kept</th><th>How long</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Saved results</strong>: date, distance and unit, time, pace, clock-drift figure, and the runner name and note you enter</td>
+        <td>On the iPhone, in the app's storage</td>
+        <td>Until you delete them or delete the app</td>
+      </tr>
+      <tr>
+        <td><strong>Runner names and groups</strong> (the roster you type in)</td>
+        <td>On the iPhone, in the app's storage</td>
+        <td>Until you remove them or delete the app</td>
+      </tr>
+      <tr>
+        <td><strong>Finish-line video</strong> recorded by the finish phone during a session, and the short clips cut from it</td>
+        <td>On the finish iPhone (and, in a two-phone session, copied to the start iPhone for review). The working footage is excluded from device backups.</td>
+        <td>Only for the session: footage without a finish in it is deleted as you go, and the rest is deleted when you save or discard the session, or when the next session starts (the finish phone keeps the last session's footage until then so it can be recovered after an interruption). A clip is kept longer only if you choose to save it to Photos.</td>
+      </tr>
+      <tr>
+        <td><strong>Session in progress</strong>: start and finish timestamps and clock-sync measurements</td>
+        <td>On the iPhone, and on the Apple Watch when it is the starter</td>
+        <td>Until the session is saved or discarded</td>
+      </tr>
+      <tr>
+        <td><strong>Settings</strong>: distance unit, finish chime on/off</td>
+        <td>On the device</td>
+        <td>Until you delete the app</td>
+      </tr>
+      <tr>
+        <td><strong>Subscription status</strong>: which LaneSync Pro plan is active, its Apple transaction identifier and when its access ends, so Pro keeps working briefly without a signal</td>
+        <td>On the iPhone</td>
+        <td>Replaced at each check; cleared once the App Store reports the subscription has ended</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Saved results, the roster and settings are ordinary app data, so they are included in your own iCloud or computer backups of the device if you use them. Those backups are handled by Apple under Apple's privacy policy; we cannot access them.</p>
+
+  <h2>Permissions LaneSync asks for, and why</h2>
+  <ul>
+    <li><strong>Camera</strong> (finish iPhone only). The finish phone films the finish line to detect and time each runner who crosses it. Detection uses Apple's on-device Vision body-pose analysis, which looks for body positions, not faces or identities. Video is processed and stored only on your devices. LaneSync does not use the microphone and records no audio.</li>
+    <li><strong>Local Network</strong> (both iPhones). The start and finish phones connect directly to each other over Bluetooth and peer-to-peer Wi-Fi (Apple's Multipeer Connectivity) to sync their clocks and to hand over times and clips at the end of a session. No internet connection or Wi-Fi network is used for this.</li>
+    <li><strong>Add to Photos</strong> (optional). Only when you tap to save a finish clip, LaneSync asks for add-only access so it can save that clip to your photo library. LaneSync cannot see or read anything in your library.</li>
+    <li><strong>Health (Apple Watch only)</strong>. When the watch is the starter, LaneSync starts a running workout session so the watch stays awake through the countdown while your wrist is down. To start a workout session, watchOS requires permission to write workouts. LaneSync <strong>reads no Health data and saves no workout to the Health app</strong>; no Health information is collected or shared.</li>
+  </ul>
+  <p>You can change any of these permissions at any time in the Settings app. Turning one off only disables the part of LaneSync that needs it.</p>
+
+  <h2>Data that moves between devices</h2>
+  <p>LaneSync only ever moves data directly between devices that are physically close to each other and running LaneSync:</p>
+  <ul>
+    <li><strong>Two iPhones.</strong> The phones exchange clock-sync messages, finish times and the finish clips, and the saved results of a session are copied to both phones. Each phone is shown to the other using the device's name as iOS reports it. This link is direct and local; it never goes through the internet or through us. LaneSync does not add its own encryption to this link, so connect only with devices you are timing with.</li>
+    <li><strong>iPhone and Apple Watch.</strong> The watch and its paired iPhone exchange clock-sync messages, start times and whether the app is open, using Apple's Watch Connectivity.</li>
+  </ul>
+
+  <h2>Sharing and export: only when you choose</h2>
+  <p>History lets you export results as a CSV file, share personal bests or a session as text, and share a result card image. These go wherever you send them through the iOS share sheet (for example Messages, Mail or Files) and are then governed by that service's privacy practices. LaneSync never shares anything on its own.</p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>No account, sign-in, email address or phone number is ever requested.</li>
+    <li>No analytics, crash-reporting, advertising or tracking software is included, and LaneSync contains no third-party SDKs.</li>
+    <li>LaneSync does not connect to any server operated by us or by third parties. The only internet traffic is to Apple's App Store, made by iOS itself, for subscriptions.</li>
+    <li>No location data is used.</li>
+    <li>No data is sold, rented, or used for profiling or advertising.</li>
+  </ul>
+
+  <h2>Purchases and subscriptions</h2>
+  <p>LaneSync Pro is an auto-renewable subscription sold through Apple's App Store. Apple processes the payment and manages your subscription; we never receive your name, Apple ID, email or payment details. The app receives only Apple's signed confirmation of which plan is active and when it renews or ends, and keeps that on the device as described above. You can manage or cancel the subscription in Settings › your name › Subscriptions. Apple's handling of purchases is covered by the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
+
+  <h2>Diagnostics from Apple</h2>
+  <p>If you have chosen in your device settings to share analytics with app developers, Apple may provide us with anonymized crash reports and usage statistics about LaneSync. That sharing is controlled by you in Settings › Privacy &amp; Security › Analytics &amp; Improvements, and Apple does not identify you to us.</p>
+
+  <h2>Children's privacy</h2>
+  <p>LaneSync is a timing tool for athletes and coaches, including youth teams. Because it collects no personal information, it does not knowingly collect personal information from children under 13 (or the equivalent minimum age where you live). Runner names and video of runners stay on the coach's or athlete's own devices. If you time minors, please use names and recordings in line with your club's or school's policies and with the consent of a parent or guardian where required.</p>
+
+  <h2>Deleting your data</h2>
+  <ul>
+    <li><strong>A single result:</strong> open History, choose the session or result, and use Delete.</li>
+    <li><strong>Runners and groups:</strong> open Runners (in the ⋯ menu on the start phone) to remove a runner or delete a group.</li>
+    <li><strong>A session in progress and its clips:</strong> use Discard session.</li>
+    <li><strong>Everything:</strong> delete the LaneSync app from your iPhone (and Apple Watch). This removes all results, roster, clips and settings stored by the app. Copies you exported or saved to Photos, and any device backups, are separate and can be deleted there.</li>
+  </ul>
+  <p>Because we hold none of your data, there is nothing for us to delete on our side, and no data request is needed.</p>
+
+  <h2>Your rights</h2>
+  <p>Depending on where you live (for example under the GDPR or US state privacy laws), you may have rights to access, correct or delete personal data held about you. LaneSync's developer holds no personal data about you, and all data the app creates is under your direct control on your device as described above. You can still contact us with any question.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If LaneSync's handling of information changes, we will update this page and its effective date before the change ships in an app update.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or about LaneSync: austin.munoz@mechanicalmacro.com</p>
+
+  <footer>© 2026 Austin Munoz</footer>
+</main>
+</body>
+</html>
